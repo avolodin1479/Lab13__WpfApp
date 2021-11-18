@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:Col="clr-namespace:System.Collections;assembly=mscorlib" 
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <Col:ArrayList x:Key="ComboBox1Items" >
+        <sys:String>Arial</sys:String>
+        <sys:String>Times New Roman</sys:String>
+        <sys:String>Verdana</sys:String>
+    </Col:ArrayList>
+    <Col:ArrayList x:Key="ComboBox2Items" >
+        <sys:String>12</sys:String>
+        <sys:String>14</sys:String>
+        <sys:String>16</sys:String>
+    </Col:ArrayList>
+</ResourceDictionary>
